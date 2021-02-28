@@ -1,0 +1,105 @@
+{
+    "books": [
+        {
+            "title": "Prince of Thorns",
+            "price": 8.99,
+            "pages": 373,
+            "authors": [{
+                    "FirstName": "Mark",
+                    "LastName": "Lawerance"
+                }],
+
+            "genres": ["adventure", "fantasy"]
+        },
+        {
+            "title": "Camino Island",
+            "price": 8.99,
+            "pages": 294,
+            "authors": [{
+                    "FirstName": "John",
+                    "LastName": "Grisham"
+                }],
+            "genres": ["crime", "thriller"]
+        },
+        {
+            "title": "Fatherland",
+            "price": 5.99,
+            "pages": 209,
+            "authors": [{
+                    "FirstName": "Robert",
+                    "LastName": "Harris"
+                }],
+            "genres": ["crime", "thriller", "historical"]
+        },
+        {
+            "title": "Essex Serpent, The",
+            "price": 8.99,
+            "pages": 360,
+            "authors": [{
+                    "FirstName": "Sarah",
+                    "LastName": "Perry"
+                }],
+            "genres": ["literature", "historical"]
+        },
+        {
+            "title": "Sisters Brothers, The",
+            "price": 8.99,
+            "pages": 250,
+            "authors": [{
+                    "FirstName": "Patrick",
+                    "LastName": "deWitt"
+                }],
+            "genres": ["western", "historical", "adventure"]
+        },
+        {
+            "title": "Stick",
+            "price": 8.99,
+            "pages": 130,
+            "authors": [{
+                    "FirstName": "Elmore",
+                    "LastName": "Leonard"
+                }],
+            "genres": ["crime", "thriller"]
+        },
+        {
+            "title": "Sphere",
+            "price": 5.99,
+            "pages": 289,
+            "authors": [{
+                    "FirstName": "Michael",
+                    "LastName": "Crichton"
+                }],
+            "genres": ["thriller", "adventure", "science fiction"]
+        },
+        {
+            "title": "NineEves",
+            "price": 8.99,
+            "pages": 430,
+            "authors": [{
+                    "FirstName": "Neal",
+                    "LastName": "Stephenson"
+                }],
+            "genres": ["adventure", "science fiction"]
+        },
+        {
+            "title": "Color of Magic, The",
+            "price": 8.99,
+            "pages": 289,
+            "authors": [{
+                    "FirstName": "Terry",
+                    "LastName": "Prachett"
+                }],
+            "genres": ["adventure", "fantasy"]
+        },
+        {
+            "title": "Dead Harvest",
+            "price": 8.99,
+            "pages": 200,
+            "authors": [{
+                    "FirstName": "Chris",
+                    "LastName": "Prachett"
+                }],
+            "genres": ["crime", "fantasy", "thriller"]
+        }
+    ]
+}

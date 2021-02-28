@@ -1,0 +1,195 @@
+{
+    "books": [
+        {
+            "title": "Prince of Thorns",
+            "price": 8.99,
+            "pages": 373,
+            "authors": [{
+                    "FirstName": "Mark",
+                    "LastName": "Lawrence"
+                }],
+
+            "genres": ["Adventure", "Fantasy"]
+        },
+        {
+            "title": "Camino Island",
+            "price": 8.99,
+            "pages": 294,
+            "authors": [{
+                    "FirstName": "John",
+                    "LastName": "Grisham"
+                }],
+            "genres": ["Crime", "Thriller"]
+        },
+        {
+            "title": "Fatherland",
+            "price": 5.99,
+            "pages": 209,
+            "authors": [{
+                    "FirstName": "Robert",
+                    "LastName": "Harris"
+                }],
+            "genres": ["Crime", "Thriller", "Historical"]
+        },
+        {
+            "title": "Essex Serpent, The",
+            "price": 8.99,
+            "pages": 360,
+            "authors": [{
+                    "FirstName": "Sarah",
+                    "LastName": "Perry"
+                }],
+            "genres": ["Literature", "Historical"]
+        },
+        {
+            "title": "Sisters Brothers, The",
+            "price": 8.99,
+            "pages": 250,
+            "authors": [{
+                    "FirstName": "Patrick",
+                    "LastName": "deWitt"
+                }],
+            "genres": ["Western", "Historical", "Adventure"]
+        },
+        {
+            "title": "Stick",
+            "price": 8.99,
+            "pages": 130,
+            "authors": [{
+                    "FirstName": "Elmore",
+                    "LastName": "Leonard"
+                }],
+            "genres": ["Crime", "Thriller"]
+        },
+        {
+            "title": "Sphere",
+            "price": 5.99,
+            "pages": 289,
+            "authors": [{
+                    "FirstName": "Michael",
+                    "LastName": "Crichton"
+                }],
+            "genres": ["Thriller", "Adventure", "Science Fiction"]
+        },
+        {
+            "title": "NineEves",
+            "price": 8.99,
+            "pages": 430,
+            "authors": [{
+                    "FirstName": "Neal",
+                    "LastName": "Stephenson"
+                }],
+            "genres": ["Adventure", "Science Fiction"]
+        },
+        {
+            "title": "Color of Magic, The",
+            "price": 8.99,
+            "pages": 289,
+            "authors": [{
+                    "FirstName": "Terry",
+                    "LastName": "Prachett"
+                }],
+            "genres": ["Adventure", "Fantasy"]
+        },
+        {
+            "title": "Dead Harvest",
+            "price": 8.99,
+            "pages": 200,
+            "authors": [{
+                    "FirstName": "Chris",
+                    "LastName": "Holm"
+                }],
+            "genres": ["Crime", "Fantasy", "Thriller"]
+        },
+        {
+            "title": "Blue Blazes",
+            "price": 8.99,
+            "pages": 189,
+            "authors": [{
+                    "FirstName": "Chuck",
+                    "LastName": "Wendig"
+                }],
+            "genres": ["Fantasy", "Thriller"]
+        },
+        {
+            "title": "Blackbirds",
+            "price": 8.99,
+            "pages": 189,
+            "authors": [{
+                    "FirstName": "Chuck",
+                    "LastName": "Wendig"
+                }],
+            "genres": ["Fantasy", "Thriller", "Horror"]
+        },
+        {
+            "title": "Salem's Lot",
+            "price": 8.99,
+            "pages": 289,
+            "authors": [{
+                    "FirstName": "Stephen",
+                    "LastName": "King"
+                }],
+            "genres": ["Horror"]
+        },
+        {
+            "title": "Cujo",
+            "price": 6.99,
+            "pages": 302,
+            "authors": [{
+                    "FirstName": "Stephen",
+                    "LastName": "King"
+                }],
+            "genres": ["Horror"]
+        },
+        {
+            "title": "La Bravia",
+            "price": 8.99,
+            "pages": 130,
+            "authors": [{
+                    "FirstName": "Elmore",
+                    "LastName": "Leonard"
+                }],
+            "genres": ["Crime", "Thriller"]
+        },
+        {
+            "title": "52 Pickup",
+            "price": 8.99,
+            "pages": 125,
+            "authors": [{
+                    "FirstName": "Elmore",
+                    "LastName": "Leonard"
+                }],
+            "genres": ["Crime", "Thriller"]
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "price": 8.99,
+            "pages": 130,
+            "authors": [{
+                    "FirstName": "Harper",
+                    "LastName": "Lee"
+                }],
+            "genres": ["Crime", "Literature"]
+        },
+        {
+            "title": "Of Mice and Men",
+            "price": 8.99,
+            "pages": 158,
+            "authors": [{
+                    "FirstName": "John",
+                    "LastName": "Steinbeck"
+                }],
+            "genres": ["Drama", "Literature", "Historical"]
+        },
+        {
+            "title": "Cone Gatherers, The",
+            "price": 5.99,
+            "pages": 114,
+            "authors": [{
+                    "FirstName": "Robin",
+                    "LastName": "Jenkins"
+                }],
+            "genres": ["Literature", "Historical", "Scottish"]
+        }
+    ]
+}
