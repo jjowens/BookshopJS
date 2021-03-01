@@ -8,7 +8,8 @@ const app = new Vue({
         books: [],
         genres: [],
         authors: [],
-        filteredGenres: []
+        filteredGenres: [],
+        selectedGenres: ["Horror", "Crime"]
     },
     methods: {
         preload: function(event) {
