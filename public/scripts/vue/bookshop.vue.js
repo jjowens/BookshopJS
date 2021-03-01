@@ -8,6 +8,7 @@ const app = new Vue({
         books: [],
         genres: [],
         authors: [],
+        filteredGenresText: "All",
         filteredGenres: [],
         selectedGenres: ["Horror", "Crime"]
     },
@@ -40,6 +41,10 @@ const app = new Vue({
                 this.authors = tempAuthors;
 
             });
+        },
+        clearFilteredGenres: function(data) {
+            this.filteredGenres = [];
+            this.filteredGenresText = "All";
         }
      },
     computed: {
@@ -50,7 +55,7 @@ const app = new Vue({
                 return 0;
             });
         },
-        orderGenres: function() {
+        orderedGenres: function() {
             return this.genres.sort((a,b) => {
                 if(a < b) return -1;
                 if(a > b) return 1;
@@ -63,6 +68,13 @@ const app = new Vue({
                 if(a.title > b.title) return 1;
                 return 0;
             });
-        }
+        },
+        orderedFilteredGenres: function() {
+            return this.filteredGenres.sort((a,b) => {
+                if(a < b) return -1;
+                if(a > b) return 1;
+                return 0;
+            });
+        },
     }
 });

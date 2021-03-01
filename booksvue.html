@@ -12,7 +12,7 @@
     <div id="app">
         <!-- BANNER -->
         <div class="rounded p-3 m-2 bg-blue-300">
-           <p>Bookshop with Vue.js - <span v-for="genre in filteredGenres">{{ genre }}</span></p>
+           <p>Bookshop with Vue.js</p>
         </div>
 
         <!-- CONTENT -->
@@ -20,9 +20,13 @@
             <!-- SIDEMENU-->
             <div class="flex bg-blue-200 rounded p-2 m-2">
                 <div>
-                    <h2>Genres</h2>
+                    <h2 class="font-semibold">Genres</h2>
                     <div>
-                        <p v-for="genre in genres"><input type="checkbox" class="mr-2" v-model="filteredGenres"/><label for="{{ genre }}">{{ genre }}</label></p>
+                        <div class="text-center"><button class="rounded pr-2 pl-2 pt-1 pb-1 bg-blue-300" v-on:click="clearFilteredGenres" >Clear All</button></div>
+                        <p v-for="genre in orderedGenres" >
+                            <input type="checkbox" class="mr-2" v-model="filteredGenres" v-bind:value="genre" />
+                            <label for="{{ genre }}">{{ genre }}</label>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -30,7 +34,7 @@
             <div class="flex-1">
 
                 <div>
-                    <p>Genres / All</p>
+                    <p>Genres / <span v-if="orderedFilteredGenres.length === 0">All</span><span v-for="genre in orderedFilteredGenres">{{ genre }}, </span></p>
                 </div>
 
                 <!-- BOOKS-->
